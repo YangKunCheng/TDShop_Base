@@ -113,9 +113,11 @@ Pod::Spec.new do |spec|
 
   # spec.requires_arc = true
 
-  # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+  # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" } 
+  spec.vendored_frameworks = 'Base.framework'
+  spec.swift_version = '5.0'
   spec.dependency 'Alamofire', '~> 4.8.0'
   spec.dependency 'YYModel', '~> 1.0.4'
-  spec.vendored_frameworks = 'Base.framework'
+  
 
 end
