@@ -13,7 +13,8 @@ Pod::Spec.new do |spec|
   spec.version      = "0.0.1"
   spec.summary      = "A short description of TDShop_Base."
 
-  spec.description  = <<-DESC testDesc
+  spec.description  = <<-DESC 
+				test
                    DESC
 
   spec.homepage     = "http://EXAMPLE/TDShop_Base"
